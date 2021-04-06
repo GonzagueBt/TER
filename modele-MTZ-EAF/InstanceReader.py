@@ -50,9 +50,10 @@ class Data():
         #print("liste des échanges : ",listExchange)
         self.nb_pair=len(pair)
         self.nb_donor=len(listDonor)
-        self.cost=cost
-        self.N=altruist
-        self.P=pair
-        self.V=listDonor
-        self.A=listExchange
-        self.Instance=(P,num)
+        self.cost=cost #un double tableau, le coût de l'arc u_ij se récupère en cost[i][j]
+        self.N=altruist #une liste contenant tous les donneurs seuls (ensemble N)
+        self.P=pair #une liste contenant toutes les paires (ensemble P)
+        self.V=listDonor #une liste conetenant tous les donneurs (ensemble V)
+        self.A=listExchange #une liste contenant tous les échanges (ensemble a : tous les arcs du graphe)
+        self.Instance=(P,num) #un tuple ou le premier élément contient le nombre de patient, et le 2ème le numéro de l'instance 
+                                #(entre 0 et 5)
