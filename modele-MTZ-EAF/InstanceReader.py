@@ -30,7 +30,7 @@ class Data():
         listExchange= [] # listes de tuples (les échanges entre paires et donneurs)
         listDonor=[] # liste des donneurs
         allPatient=[] #liste de listes des patients de chaque donneur
-        allDonors=np.zeros((int(id_max)+1,int(P)))
+        allDonors=np.zeros((int(id_max)+1,int(int(P)*1.2)))
         allDonorsInP=np.zeros((int(id_max)+1,int(P)))
         
         #parcous du fichier html et remplissage des tableaux
@@ -54,11 +54,13 @@ class Data():
                 arc= (int(id),int(patient.text))
                 listpatients.append(int(patient.text))
                 listExchange.append(arc)
+                
                 ind = allDonors[int(patient.text)][0]+1
                 allDonors[int(patient.text)][int(ind)]=int(id)
                 allDonors[int(patient.text)][0]=allDonors[int(patient.text)][0]+1
                 
                 if(donor.find('altruistic')==None):
+                    ind = allDonorsInP[int(patient.text)][0]+1
                     allDonorsInP[int(patient.text)][int(ind)]=int(id)
                     allDonorsInP[int(patient.text)][0]=allDonors[int(patient.text)][0]+1
                 
