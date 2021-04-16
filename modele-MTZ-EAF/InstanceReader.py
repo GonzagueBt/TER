@@ -12,8 +12,7 @@ class Data():
             id=donor.attrib['donor_id']
             if(int(id) > int(id_max)):
                 id_max=donor.attrib['donor_id']
-        print('id max : ', id_max)
-        print()
+        
         #Autre méthode utilisant le fichier json (ne fonctionne pas puisque le nombre de donneur n'est pas égale à nombre 
             #de patientsx110%, comme cela devrait l'être puisque 10% de donneur altruiste)
         #with open('Datas/InstanceP='+str(50)+'/config.json') as json_data:
@@ -62,14 +61,12 @@ class Data():
                 if(donor.find('altruistic')==None):
                     ind = allDonorsInP[int(patient.text)][0]+1
                     allDonorsInP[int(patient.text)][int(ind)]=int(id)
-                    allDonorsInP[int(patient.text)][0]=allDonors[int(patient.text)][0]+1
+                    allDonorsInP[int(patient.text)][0]=allDonorsInP[int(patient.text)][0]+1
                 
             allPatient.append(listpatients)
             count=count+1
     
         #print("liste des échanges : ",listExchange)
-        self.nb_pair=len(pair)
-        self.nb_donor=len(listDonor)
         self.id_max=int(id_max)
         self.cost=cost #un double tableau, le coût de l'arc u_ij se récupère en cost[i][j]
         self.N=altruist #une liste contenant tous les donneurs seuls (ensemble N)
