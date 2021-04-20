@@ -60,22 +60,19 @@ class Data():
                 allDonors[int(patient.text)][0]=allDonors[int(patient.text)][0]+1
                 
                 if(donor.find('altruistic')==None):
-                    ind = allDonorsInP[int(patient.text)][0]+1
-                    allDonorsInP[int(patient.text)][int(ind)]=int(id)
-                    allDonorsInP[int(patient.text)][0]=allDonors[int(patient.text)][0]+1
+                    indice = allDonorsInP[int(patient.text)][0]+1
+                    allDonorsInP[int(patient.text)][int(indice)]=int(id)
+                    allDonorsInP[int(patient.text)][0]=allDonorsInP[int(patient.text)][0]+1
                 
             allPatient.append(listpatients)
             count=count+1
-    
-        #print("liste des échanges : ",listExchange)
-        self.nb_pair=len(pair)
-        self.nb_donor=len(listDonor)
+        
         self.id_max=int(id_max)
         self.cost=cost #un double tableau, le coût de l'arc u_ij se récupère en cost[i][j]
         self.N=altruist #une liste contenant tous les donneurs seuls (ensemble N)
         self.P=pair #une liste contenant toutes les paires (ensemble P)
         self.V=listDonor #une liste conetenant tous les donneurs (ensemble V)
-        self.A=listExchange #une liste contenant tous les échanges (ensemble a : tous les arcs du graphe)
+        self.A=listExchange #une liste contenant tous les échanges (ensemble A : tous les arcs du graphe)
         self.allPatients=allPatient #une listes de liste : la liste des patients comaptible pour chaque donneur
         self.index=Index #pour un donneur i, index[i] retourne l'indice de i dans la liste allPatient : 
             # par exemple, pour le donneur id=12, la liste des patients compatible s'obtient pas allPatient[int(index[12])]
