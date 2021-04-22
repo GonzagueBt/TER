@@ -5,7 +5,7 @@ import time
 import InstanceReader
 
 def solve(data, L, K):
-    print("in process...")
+    print("Instance P"+data.Instance[0]+"-"+data.Instance[1]+ " with " + "L=" +str(L)+ " and K=" + str(K)+ " in progress...")
     # Création du modèle vide 
     model = Model(name = "MTZ-EAF", sense = mip.MAXIMIZE, solver_name="GUROBI")
     
@@ -44,7 +44,11 @@ def solve(data, L, K):
     #Contrainte 18
     for i in (data.P):
         model += (xsum(y[i][j] for j in data.allPatients[int(data.index[int(i)])])
-                      -xsum(y[int(data.allDonors[i][j])][i] for j in range(1,int(data.allDonors[i][0])+1)) == 0 ) 
+                      <= xsum(y[int(data.allDonors[i][j])][i] for j in range(1,int(data.allDonors[i][0])+1))  ) 
+        
+    for i in (data.P):
+        model += (xsum(u[k][i][j]  for k in (data.P) for j in data.allPatients[int(data.index[int(i)])])
+                      + xsum(y[int(data.allDonors[i][j])][i] for j in range(1,int(data.allDonorsInP[i][0])+1)) <=1  )  
     
     #Contrainte 19
     for i in (data.P):
@@ -98,66 +102,94 @@ def solve(data, L, K):
     # Lancement du chronomètre
     start = time.perf_counter()
     # Résolution du modèle
-    status = model.optimize(max_seconds=20)  # temps limite = 120s
+    status = model.optimize(max_seconds=300)  # temps limite = 5min
     # Arrêt du chronomètre et calcul du temps de résolution
     runtime = time.perf_counter() - start
     
-    print("\n----------------------------------")
-    if status == OptimizationStatus.OPTIMAL:
-        print("Status de la résolution: OPTIMAL")
-    elif status == OptimizationStatus.FEASIBLE:
-        print("Status de la résolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE")
-    elif status == OptimizationStatus.NO_SOLUTION_FOUND:
-        print("Status de la résolution: TEMPS LIMITE et AUCUNE SOLUTION CALCULEE")
-    elif status == OptimizationStatus.INFEASIBLE or status == OptimizationStatus.INT_INFEASIBLE:
-        print("Status de la résolution: IRREALISABLE")
-    elif status == OptimizationStatus.UNBOUNDED:
-        print("Status de la résolution: NON BORNE")
-        
-    print("Temps de résolution (s) : ", runtime)    
-    print("----------------------------------")
+    solutionfileName = 'Solutions/P'+data.Instance[0]+'bis/L='+str(L)+'&K='+str(K)+'.txt'
+    with open(solutionfileName, 'a') as file:  #ouvre le fichier, le ferme automatiquement à la fin et gère les exceptions  
+        file.write("P"+data.Instance[0]+"-"+data.Instance[1]+"\n")
+        file.write("----------------------------------\n")
+        if status == OptimizationStatus.OPTIMAL:
+            file.write("Status de la resolution: OPTIMAL")
+        elif status == OptimizationStatus.FEASIBLE:
+            file.write("Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE")
+        elif status == OptimizationStatus.NO_SOLUTION_FOUND:
+            file.write("Status de la resolution: TEMPS LIMITE et AUCUNE SOLUTION CALCULEE")
+        elif status == OptimizationStatus.INFEASIBLE or status == OptimizationStatus.INT_INFEASIBLE:
+            file.write("Status de la resolution: IRREALISABLE")
+        elif status == OptimizationStatus.UNBOUNDED:
+            file.write("Status de la resolution: NON BORNE")
+        file.write("\n")
+        file.write("Temps de resolution (s) : "+ str(runtime)+ "\n")    
+        file.write("----------------------------------\n")
 
-    # Si le modèle a été résolu à l'optimalité ou si une solution a été trouvée dans le temps limite accordé
-    if model.num_solutions>0:
-        print("Solution calculée")
-        print("-> Valeur de la fonction objectif de la solution calculée : ",  model.objective_value)  # ne pas oublier d'arrondir si le coût doit être entier
-        print("-> Meilleure borne supérieure sur la valeur de la fonction objectif = ", model.objective_bound)
-        for i in range(data.id_max+1):
-            for j in range(data.id_max+1):
-                if(y[i][j].x>0.5):
-                    print("(chemin) le donneur " + str(i) + " donne son rein au patient " + str(j) + " en position " + str(round(t[i].x)))
-        for k in range(data.id_max+1):
+        # Si le modèle a été résolu à l'optimalité ou si une solution a été trouvée dans le temps limite accordé
+        if model.num_solutions>0:
+            file.write("Solution calculee \n")
+            file.write("-> Valeur de la fonction objectif de la solution calculee : " + str(model.objective_value) + "\n")  # ne pas oublier d'arrondir si le coût doit être entier
+            file.write("-> Meilleure borne superieure sur la valeur de la fonction objectif = "+ str(model.objective_bound)+ "\n")
+            file.write("----------------------------------\n")
             for i in range(data.id_max+1):
                 for j in range(data.id_max+1):
-                    if(u[k][i][j].x>0.5):
-                        print("(cycle) le donneur " + str(i) + " donne son rein au patient " + str(j) + " dans le cycle " + str(k))
-        donneur=[]
-        for i in (data.V):
-            test=0 
-            for j in (data.allPatients[int(data.index[int(i)])]):
-                if(y[i][j].x>0.5):
-                    test=1
-            for k in range (data.id_max+1):       
+                    if(y[i][j].x>0.5):
+                        file.write("(chemin) le donneur " + str(i) + " donne son rein au patient " + str(j) + " en position " + str(round(t[i].x)) +"\n")
+            for k in range(data.id_max+1):
+                for i in range(data.id_max+1):
+                    for j in range(data.id_max+1):
+                        if(u[k][i][j].x>0.5):
+                            file.write("(cycle) le donneur " + str(i) + " donne son rein au patient " + str(j) + " dans le cycle " + str(k) +"\n")
+            donneur=0
+            for i in (data.V):
+                test=0 
                 for j in (data.allPatients[int(data.index[int(i)])]):
-                    if(u[k][i][j].x>0.5):
+                    if(y[i][j].x>0.5):
                         test=1
-            if(test==0):
-                donneur.append(i)
-        
-        print("liste des donneurs non utilisé " + str(donneur))
-        patient=[]
-        for i in (data.P):
-            test=0 
-            for j in range(1,int(data.allDonorsInP[i][0])+1):
-                if(y[int(data.allDonorsInP[i][j])][i].x>0.5):
-                    test=1
-            for k in range (data.id_max+1):       
+                for k in range (data.id_max+1):       
+                    for j in (data.allPatients[int(data.index[int(i)])]):
+                        if(u[k][i][j].x>0.5):
+                            test=1
+                if(test==0):
+                    donneur=donneur+1
+            file.write(str(donneur)+" donneurs ne donnent pas leur rein\n")
+            patient=0
+            for i in (data.P):
+                test=0 
                 for j in range(1,int(data.allDonorsInP[i][0])+1):
-                    if(u[k][int(data.allDonorsInP[i][j])][i].x>0.5):
+                    if(y[int(data.allDonorsInP[i][j])][i].x>0.5):
                         test=1
-            if(test==0):
-                patient.append(i)
-        print("liste des patients sans donneurs " + str(patient))
-        
-        
-    
+                for k in range (data.id_max+1):       
+                    for j in range(1,int(data.allDonorsInP[i][0])+1):
+                        if(u[k][int(data.allDonorsInP[i][j])][i].x>0.5):
+                            test=1
+                if(test==0):
+                    patient=patient+1
+            file.write(str(patient) + " patients n'ont pas de donneur\n")
+            file.write("--------------------------------------------------------------------\n")
+            file.write("\n")
+            
+    solutionfileName = 'Solutions/P'+data.Instance[0]+'bis/Bilan-N'+data.Instance[1]+'.txt'
+    with open(solutionfileName, 'a') as file:  #ouvre le fichier, le ferme automatiquement à la fin et gère les exceptions
+        file.write("L="+str(L)+" et K="+str(K)+"\n")
+        file.write("----------------------------------\n")
+        if status == OptimizationStatus.OPTIMAL:
+            file.write("Status de la resolution: OPTIMAL")
+        elif status == OptimizationStatus.FEASIBLE:
+            file.write("Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE")
+        elif status == OptimizationStatus.NO_SOLUTION_FOUND:
+            file.write("Status de la resolution: TEMPS LIMITE et AUCUNE SOLUTION CALCULEE")
+        elif status == OptimizationStatus.INFEASIBLE or status == OptimizationStatus.INT_INFEASIBLE:
+            file.write("Status de la resolution: IRREALISABLE")
+        elif status == OptimizationStatus.UNBOUNDED:
+            file.write("Status de la resolution: NON BORNE")
+        file.write("\n")
+        file.write("Temps de resolution (s) : "+ str(runtime)+"\n")    
+        file.write("----------------------------------\n")
+
+        # Si le modèle a été résolu à l'optimalité ou si une solution a été trouvée dans le temps limite accordé
+        if model.num_solutions>0:
+            file.write("Solution calculee \n")
+            file.write("-> Valeur de la fonction objectif de la solution calculee : " + str(model.objective_value) + "\n")  # ne pas oublier d'arrondir si le coût doit être entier
+            file.write("-> Meilleure borne superieure sur la valeur de la fonction objectif = "+ str(model.objective_bound)+ "\n")
+            file.write("--------------------------------------------------------------------\n")
+            file.write("\n")

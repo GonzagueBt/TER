@@ -12,8 +12,6 @@ class Data():
             id=donor.attrib['donor_id']
             if(int(id) > int(id_max)):
                 id_max=donor.attrib['donor_id']
-        print('id max : ', id_max)
-        print()
         #Autre méthode utilisant le fichier json (ne fonctionne pas puisque le nombre de donneur n'est pas égale à nombre 
             #de patientsx110%, comme cela devrait l'être puisque 10% de donneur altruiste)
         #with open('Datas/InstanceP='+str(50)+'/config.json') as json_data:
