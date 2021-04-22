@@ -129,6 +129,7 @@ def solve(data, L, K):
             file.write("Solution calculee \n")
             file.write("-> Valeur de la fonction objectif de la solution calculee : " + str(model.objective_value) + "\n")  # ne pas oublier d'arrondir si le coût doit être entier
             file.write("-> Meilleure borne superieure sur la valeur de la fonction objectif = "+ str(model.objective_bound)+ "\n")
+            file.write("-> Distance : " + str(round(model.gap*100,2)) + "%\n")
             file.write("----------------------------------\n")
             for i in range(data.id_max+1):
                 for j in range(data.id_max+1):
@@ -191,5 +192,6 @@ def solve(data, L, K):
             file.write("Solution calculee \n")
             file.write("-> Valeur de la fonction objectif de la solution calculee : " + str(model.objective_value) + "\n")  # ne pas oublier d'arrondir si le coût doit être entier
             file.write("-> Meilleure borne superieure sur la valeur de la fonction objectif = "+ str(model.objective_bound)+ "\n")
+            file.write("-> Distance : " + str(round(model.gap*100,2)) + "%\n")
             file.write("--------------------------------------------------------------------\n")
             file.write("\n")
