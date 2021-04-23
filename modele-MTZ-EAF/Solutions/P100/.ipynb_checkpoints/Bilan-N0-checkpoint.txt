@@ -1,0 +1,11 @@
+L=2 et K=3
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.71059019999984
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 4299.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 5340.0
+-> Distance : 24.21%
+--------------------------------------------------------------------
+

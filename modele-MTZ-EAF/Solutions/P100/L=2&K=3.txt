@@ -71,3 +71,79 @@ Solution calculee
 52 patients n'ont pas de donneur
 --------------------------------------------------------------------
 
+P100-1
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.8438134390017
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 4321.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 5348.0
+-> Distance : 23.77%
+----------------------------------
+(chemin) le donneur 33 donne son rein au patient 202 en position 1
+(chemin) le donneur 63 donne son rein au patient 107 en position 1
+(chemin) le donneur 134 donne son rein au patient 125 en position 1
+(chemin) le donneur 144 donne son rein au patient 25 en position 1
+(chemin) le donneur 149 donne son rein au patient 103 en position 1
+(chemin) le donneur 152 donne son rein au patient 27 en position 1
+(chemin) le donneur 182 donne son rein au patient 28 en position 1
+(chemin) le donneur 192 donne son rein au patient 10 en position 1
+(chemin) le donneur 212 donne son rein au patient 33 en position 0
+(chemin) le donneur 213 donne son rein au patient 149 en position 0
+(chemin) le donneur 214 donne son rein au patient 134 en position 0
+(chemin) le donneur 215 donne son rein au patient 144 en position 0
+(chemin) le donneur 216 donne son rein au patient 192 en position 0
+(chemin) le donneur 217 donne son rein au patient 202 en position 0
+(chemin) le donneur 218 donne son rein au patient 182 en position 0
+(chemin) le donneur 219 donne son rein au patient 152 en position 0
+(chemin) le donneur 220 donne son rein au patient 209 en position 0
+(chemin) le donneur 221 donne son rein au patient 63 en position 0
+(chemin) le donneur 222 donne son rein au patient 77 en position 0
+(cycle) le donneur 0 donne son rein au patient 11 dans le cycle 0
+(cycle) le donneur 11 donne son rein au patient 0 dans le cycle 0
+(cycle) le donneur 9 donne son rein au patient 194 dans le cycle 9
+(cycle) le donneur 77 donne son rein au patient 9 dans le cycle 9
+(cycle) le donneur 194 donne son rein au patient 77 dans le cycle 9
+(cycle) le donneur 12 donne son rein au patient 59 dans le cycle 12
+(cycle) le donneur 59 donne son rein au patient 12 dans le cycle 12
+(cycle) le donneur 17 donne son rein au patient 81 dans le cycle 17
+(cycle) le donneur 81 donne son rein au patient 87 dans le cycle 17
+(cycle) le donneur 87 donne son rein au patient 17 dans le cycle 17
+(cycle) le donneur 21 donne son rein au patient 32 dans le cycle 21
+(cycle) le donneur 32 donne son rein au patient 209 dans le cycle 21
+(cycle) le donneur 209 donne son rein au patient 21 dans le cycle 21
+(cycle) le donneur 23 donne son rein au patient 196 dans le cycle 23
+(cycle) le donneur 181 donne son rein au patient 23 dans le cycle 23
+(cycle) le donneur 196 donne son rein au patient 181 dans le cycle 23
+(cycle) le donneur 42 donne son rein au patient 191 dans le cycle 42
+(cycle) le donneur 191 donne son rein au patient 42 dans le cycle 42
+(cycle) le donneur 51 donne son rein au patient 105 dans le cycle 51
+(cycle) le donneur 105 donne son rein au patient 158 dans le cycle 51
+(cycle) le donneur 158 donne son rein au patient 51 dans le cycle 51
+(cycle) le donneur 57 donne son rein au patient 100 dans le cycle 57
+(cycle) le donneur 100 donne son rein au patient 211 dans le cycle 57
+(cycle) le donneur 211 donne son rein au patient 57 dans le cycle 57
+(cycle) le donneur 61 donne son rein au patient 70 dans le cycle 61
+(cycle) le donneur 70 donne son rein au patient 61 dans le cycle 61
+(cycle) le donneur 65 donne son rein au patient 197 dans le cycle 65
+(cycle) le donneur 197 donne son rein au patient 65 dans le cycle 65
+(cycle) le donneur 71 donne son rein au patient 122 dans le cycle 71
+(cycle) le donneur 122 donne son rein au patient 71 dans le cycle 71
+(cycle) le donneur 75 donne son rein au patient 148 dans le cycle 75
+(cycle) le donneur 148 donne son rein au patient 75 dans le cycle 75
+(cycle) le donneur 76 donne son rein au patient 93 dans le cycle 76
+(cycle) le donneur 88 donne son rein au patient 76 dans le cycle 76
+(cycle) le donneur 93 donne son rein au patient 88 dans le cycle 76
+(cycle) le donneur 84 donne son rein au patient 174 dans le cycle 84
+(cycle) le donneur 174 donne son rein au patient 206 dans le cycle 84
+(cycle) le donneur 206 donne son rein au patient 84 dans le cycle 84
+(cycle) le donneur 101 donne son rein au patient 139 dans le cycle 101
+(cycle) le donneur 139 donne son rein au patient 159 dans le cycle 101
+(cycle) le donneur 159 donne son rein au patient 101 dans le cycle 101
+(cycle) le donneur 156 donne son rein au patient 165 dans le cycle 156
+(cycle) le donneur 165 donne son rein au patient 156 dans le cycle 156
+49 donneurs ne donnent pas leur rein
+49 patients n'ont pas de donneur
+--------------------------------------------------------------------
+

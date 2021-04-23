@@ -1,0 +1,33 @@
+L=2 et K=3
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.8438134390017
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 4321.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 5348.0
+-> Distance : 23.77%
+--------------------------------------------------------------------
+
+L=4 et K=7
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.78292003500246
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 5254.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 5476.0
+-> Distance : 4.23%
+--------------------------------------------------------------------
+
+L=7 et K=4
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.8173311130013
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 5211.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 5497.0
+-> Distance : 5.49%
+--------------------------------------------------------------------
+
