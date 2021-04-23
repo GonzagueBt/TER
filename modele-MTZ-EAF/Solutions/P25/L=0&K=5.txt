@@ -1,0 +1,111 @@
+P25-0
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.30975357399999837
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 884.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 884.0
+-> Distance : 0.0%
+----------------------------------
+(cycle) le donneur 0 donne son rein au patient 22 dans le cycle 0
+(cycle) le donneur 22 donne son rein au patient 0 dans le cycle 0
+(cycle) le donneur 5 donne son rein au patient 25 dans le cycle 5
+(cycle) le donneur 25 donne son rein au patient 41 dans le cycle 5
+(cycle) le donneur 41 donne son rein au patient 58 dans le cycle 5
+(cycle) le donneur 58 donne son rein au patient 5 dans le cycle 5
+(cycle) le donneur 15 donne son rein au patient 48 dans le cycle 15
+(cycle) le donneur 23 donne son rein au patient 15 dans le cycle 15
+(cycle) le donneur 48 donne son rein au patient 56 dans le cycle 15
+(cycle) le donneur 54 donne son rein au patient 23 dans le cycle 15
+(cycle) le donneur 56 donne son rein au patient 54 dans le cycle 15
+(cycle) le donneur 32 donne son rein au patient 35 dans le cycle 32
+(cycle) le donneur 33 donne son rein au patient 44 dans le cycle 32
+(cycle) le donneur 35 donne son rein au patient 33 dans le cycle 32
+(cycle) le donneur 44 donne son rein au patient 32 dans le cycle 32
+13 donneurs ne donnent pas leur rein
+10 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-1
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.10160509099995352
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 599.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 599.0
+-> Distance : 0.0%
+----------------------------------
+(cycle) le donneur 2 donne son rein au patient 19 dans le cycle 2
+(cycle) le donneur 19 donne son rein au patient 2 dans le cycle 2
+(cycle) le donneur 16 donne son rein au patient 31 dans le cycle 16
+(cycle) le donneur 22 donne son rein au patient 34 dans le cycle 16
+(cycle) le donneur 31 donne son rein au patient 22 dans le cycle 16
+(cycle) le donneur 34 donne son rein au patient 16 dans le cycle 16
+(cycle) le donneur 28 donne son rein au patient 29 dans le cycle 28
+(cycle) le donneur 29 donne son rein au patient 45 dans le cycle 28
+(cycle) le donneur 45 donne son rein au patient 28 dans le cycle 28
+19 donneurs ne donnent pas leur rein
+16 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-2
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.4183864089999929
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 410.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 410.0
+-> Distance : 0.0%
+----------------------------------
+(cycle) le donneur 13 donne son rein au patient 25 dans le cycle 13
+(cycle) le donneur 25 donne son rein au patient 13 dans le cycle 13
+(cycle) le donneur 15 donne son rein au patient 16 dans le cycle 15
+(cycle) le donneur 16 donne son rein au patient 26 dans le cycle 15
+(cycle) le donneur 26 donne son rein au patient 32 dans le cycle 15
+(cycle) le donneur 32 donne son rein au patient 15 dans le cycle 15
+22 donneurs ne donnent pas leur rein
+19 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-3
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.1236223890000474
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 306.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 306.0
+-> Distance : 0.0%
+----------------------------------
+(cycle) le donneur 1 donne son rein au patient 41 dans le cycle 1
+(cycle) le donneur 8 donne son rein au patient 14 dans le cycle 1
+(cycle) le donneur 14 donne son rein au patient 1 dans le cycle 1
+(cycle) le donneur 41 donne son rein au patient 8 dans le cycle 1
+(cycle) le donneur 12 donne son rein au patient 26 dans le cycle 12
+(cycle) le donneur 26 donne son rein au patient 12 dans le cycle 12
+22 donneurs ne donnent pas leur rein
+19 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-4
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.13881321399998114
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 345.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 345.0
+-> Distance : 0.0%
+----------------------------------
+(cycle) le donneur 3 donne son rein au patient 11 dans le cycle 3
+(cycle) le donneur 11 donne son rein au patient 14 dans le cycle 3
+(cycle) le donneur 14 donne son rein au patient 22 dans le cycle 3
+(cycle) le donneur 22 donne son rein au patient 36 dans le cycle 3
+(cycle) le donneur 36 donne son rein au patient 3 dans le cycle 3
+23 donneurs ne donnent pas leur rein
+20 patients n'ont pas de donneur
+--------------------------------------------------------------------
+

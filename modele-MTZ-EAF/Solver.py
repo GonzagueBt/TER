@@ -24,7 +24,7 @@ def solve(data, L, K):
             for j in range(data.id_max+1):
                 u[k][i].append(model.add_var(name="u("+str(k) + "," + str(i) + "," + str(j)+ ")", var_type=BINARY))
     
-    t = [model.add_var(name="t(" + str(i)  + ")", lb=0, ub=(L-1) , var_type=INTEGER) for i in range(data.id_max+1)]
+    t = [model.add_var(name="t(" + str(i)  + ")", lb=0, ub=(L) , var_type=INTEGER) for i in range(data.id_max+1)]
     #On a fait la contrainte 21 : ti <= L-1 pour tout i de V    
     
     
@@ -106,7 +106,7 @@ def solve(data, L, K):
     # Arrêt du chronomètre et calcul du temps de résolution
     runtime = time.perf_counter() - start
     
-    solutionfileName = 'Solutions/P'+data.Instance[0]+'bis/L='+str(L)+'&K='+str(K)+'.txt'
+    solutionfileName = 'Solutions/P'+data.Instance[0]+'/L='+str(L)+'&K='+str(K)+'.txt'
     with open(solutionfileName, 'a') as file:  #ouvre le fichier, le ferme automatiquement à la fin et gère les exceptions  
         file.write("P"+data.Instance[0]+"-"+data.Instance[1]+"\n")
         file.write("----------------------------------\n")
@@ -169,7 +169,7 @@ def solve(data, L, K):
             file.write("--------------------------------------------------------------------\n")
             file.write("\n")
             
-    solutionfileName = 'Solutions/P'+data.Instance[0]+'bis/Bilan-N'+data.Instance[1]+'.txt'
+    solutionfileName = 'Solutions/P'+data.Instance[0]+'/Bilan-N'+data.Instance[1]+'.txt'
     with open(solutionfileName, 'a') as file:  #ouvre le fichier, le ferme automatiquement à la fin et gère les exceptions
         file.write("L="+str(L)+" et K="+str(K)+"\n")
         file.write("----------------------------------\n")

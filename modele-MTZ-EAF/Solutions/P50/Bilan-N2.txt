@@ -1,0 +1,66 @@
+L=2 et K=3
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 1.8433379180000884
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 1588.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 1588.0
+-> Distance : 0.0%
+--------------------------------------------------------------------
+
+L=4 et K=7
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 1.7711463830000866
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 1740.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 1740.0
+-> Distance : 0.0%
+--------------------------------------------------------------------
+
+L=5 et K=5
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 1.6916037429998596
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 1729.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 1729.0
+-> Distance : 0.0%
+--------------------------------------------------------------------
+
+L=0 et K=5
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 1.5302770230000533
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 796.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 796.0
+-> Distance : 0.0%
+--------------------------------------------------------------------
+
+L=5 et K=0
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 1.9973467170000276
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 1658.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 1658.0
+-> Distance : 0.0%
+--------------------------------------------------------------------
+
+L=10 et K=10
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 1.5689944769999329
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 1760.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 1760.0
+-> Distance : 0.0%
+--------------------------------------------------------------------
+

@@ -1,0 +1,139 @@
+P25-0
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.2596968889999971
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 1341.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 1341.0
+-> Distance : 0.0%
+----------------------------------
+(chemin) le donneur 2 donne son rein au patient 55 en position 1
+(chemin) le donneur 4 donne son rein au patient 34 en position 8
+(chemin) le donneur 5 donne son rein au patient 25 en position 1
+(chemin) le donneur 17 donne son rein au patient 22 en position 1
+(chemin) le donneur 22 donne son rein au patient 0 en position 9
+(chemin) le donneur 25 donne son rein au patient 41 en position 2
+(chemin) le donneur 32 donne son rein au patient 35 en position 5
+(chemin) le donneur 33 donne son rein au patient 4 en position 7
+(chemin) le donneur 34 donne son rein au patient 7 en position 9
+(chemin) le donneur 35 donne son rein au patient 33 en position 6
+(chemin) le donneur 41 donne son rein au patient 32 en position 3
+(chemin) le donneur 59 donne son rein au patient 17 en position 0
+(chemin) le donneur 60 donne son rein au patient 5 en position 0
+(chemin) le donneur 61 donne son rein au patient 2 en position 0
+(cycle) le donneur 15 donne son rein au patient 48 dans le cycle 15
+(cycle) le donneur 23 donne son rein au patient 15 dans le cycle 15
+(cycle) le donneur 48 donne son rein au patient 56 dans le cycle 15
+(cycle) le donneur 54 donne son rein au patient 23 dans le cycle 15
+(cycle) le donneur 56 donne son rein au patient 54 dans le cycle 15
+9 donneurs ne donnent pas leur rein
+9 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-1
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.12216907800001309
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 1040.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 1040.0
+-> Distance : 0.0%
+----------------------------------
+(chemin) le donneur 2 donne son rein au patient 34 en position 3
+(chemin) le donneur 14 donne son rein au patient 25 en position 1
+(chemin) le donneur 16 donne son rein au patient 31 en position 5
+(chemin) le donneur 22 donne son rein au patient 19 en position 7
+(chemin) le donneur 25 donne son rein au patient 2 en position 2
+(chemin) le donneur 28 donne son rein au patient 29 en position 2
+(chemin) le donneur 29 donne son rein au patient 45 en position 3
+(chemin) le donneur 31 donne son rein au patient 22 en position 6
+(chemin) le donneur 34 donne son rein au patient 16 en position 4
+(chemin) le donneur 37 donne son rein au patient 26 en position 5
+(chemin) le donneur 43 donne son rein au patient 28 en position 1
+(chemin) le donneur 45 donne son rein au patient 37 en position 4
+(chemin) le donneur 47 donne son rein au patient 26 en position 0
+(chemin) le donneur 48 donne son rein au patient 43 en position 0
+(chemin) le donneur 49 donne son rein au patient 14 en position 0
+13 donneurs ne donnent pas leur rein
+13 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-2
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.4591281350000145
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 861.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 861.0
+-> Distance : 0.0%
+----------------------------------
+(chemin) le donneur 29 donne son rein au patient 62 en position 1
+(chemin) le donneur 56 donne son rein au patient 24 en position 2
+(chemin) le donneur 58 donne son rein au patient 56 en position 1
+(chemin) le donneur 62 donne son rein au patient 67 en position 2
+(chemin) le donneur 74 donne son rein au patient 58 en position 0
+(chemin) le donneur 75 donne son rein au patient 25 en position 0
+(chemin) le donneur 76 donne son rein au patient 29 en position 0
+(cycle) le donneur 13 donne son rein au patient 25 dans le cycle 13
+(cycle) le donneur 15 donne son rein au patient 16 dans le cycle 13
+(cycle) le donneur 16 donne son rein au patient 26 dans le cycle 13
+(cycle) le donneur 25 donne son rein au patient 32 dans le cycle 13
+(cycle) le donneur 26 donne son rein au patient 13 dans le cycle 13
+(cycle) le donneur 32 donne son rein au patient 15 dans le cycle 13
+15 donneurs ne donnent pas leur rein
+15 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-3
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.13099367199998824
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 578.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 578.0
+-> Distance : 0.0%
+----------------------------------
+(chemin) le donneur 12 donne son rein au patient 0 en position 9
+(chemin) le donneur 24 donne son rein au patient 45 en position 1
+(chemin) le donneur 26 donne son rein au patient 12 en position 2
+(chemin) le donneur 52 donne son rein au patient 24 en position 0
+(chemin) le donneur 53 donne son rein au patient 26 en position 0
+(chemin) le donneur 54 donne son rein au patient 26 en position 0
+(cycle) le donneur 1 donne son rein au patient 41 dans le cycle 1
+(cycle) le donneur 8 donne son rein au patient 14 dans le cycle 1
+(cycle) le donneur 14 donne son rein au patient 1 dans le cycle 1
+(cycle) le donneur 41 donne son rein au patient 8 dans le cycle 1
+18 donneurs ne donnent pas leur rein
+18 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
+P25-4
+----------------------------------
+Status de la resolution: OPTIMAL
+Temps de resolution (s) : 0.13196083899998712
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 780.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 780.0
+-> Distance : 0.0%
+----------------------------------
+(chemin) le donneur 11 donne son rein au patient 37 en position 2
+(chemin) le donneur 14 donne son rein au patient 22 en position 4
+(chemin) le donneur 15 donne son rein au patient 38 en position 7
+(chemin) le donneur 17 donne son rein au patient 8 en position 2
+(chemin) le donneur 19 donne son rein au patient 17 en position 1
+(chemin) le donneur 22 donne son rein au patient 36 en position 5
+(chemin) le donneur 32 donne son rein au patient 11 en position 1
+(chemin) le donneur 36 donne son rein au patient 15 en position 6
+(chemin) le donneur 37 donne son rein au patient 14 en position 3
+(chemin) le donneur 41 donne son rein au patient 32 en position 0
+(chemin) le donneur 42 donne son rein au patient 19 en position 0
+(chemin) le donneur 43 donne son rein au patient 36 en position 0
+16 donneurs ne donnent pas leur rein
+16 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
