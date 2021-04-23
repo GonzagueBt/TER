@@ -1,0 +1,65 @@
+P100-0
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.5280915930002
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 3679.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 3978.0
+-> Distance : 8.13%
+----------------------------------
+(cycle) le donneur 0 donne son rein au patient 188 dans le cycle 0
+(cycle) le donneur 6 donne son rein au patient 136 dans le cycle 0
+(cycle) le donneur 57 donne son rein au patient 6 dans le cycle 0
+(cycle) le donneur 136 donne son rein au patient 0 dans le cycle 0
+(cycle) le donneur 188 donne son rein au patient 57 dans le cycle 0
+(cycle) le donneur 3 donne son rein au patient 109 dans le cycle 3
+(cycle) le donneur 73 donne son rein au patient 182 dans le cycle 3
+(cycle) le donneur 109 donne son rein au patient 73 dans le cycle 3
+(cycle) le donneur 182 donne son rein au patient 3 dans le cycle 3
+(cycle) le donneur 13 donne son rein au patient 32 dans le cycle 13
+(cycle) le donneur 32 donne son rein au patient 58 dans le cycle 13
+(cycle) le donneur 39 donne son rein au patient 13 dans le cycle 13
+(cycle) le donneur 54 donne son rein au patient 39 dans le cycle 13
+(cycle) le donneur 58 donne son rein au patient 54 dans le cycle 13
+(cycle) le donneur 22 donne son rein au patient 121 dans le cycle 22
+(cycle) le donneur 44 donne son rein au patient 153 dans le cycle 22
+(cycle) le donneur 121 donne son rein au patient 44 dans le cycle 22
+(cycle) le donneur 153 donne son rein au patient 22 dans le cycle 22
+(cycle) le donneur 23 donne son rein au patient 64 dans le cycle 23
+(cycle) le donneur 64 donne son rein au patient 23 dans le cycle 23
+(cycle) le donneur 26 donne son rein au patient 79 dans le cycle 26
+(cycle) le donneur 51 donne son rein au patient 26 dans le cycle 26
+(cycle) le donneur 79 donne son rein au patient 127 dans le cycle 26
+(cycle) le donneur 86 donne son rein au patient 51 dans le cycle 26
+(cycle) le donneur 127 donne son rein au patient 86 dans le cycle 26
+(cycle) le donneur 27 donne son rein au patient 145 dans le cycle 27
+(cycle) le donneur 47 donne son rein au patient 27 dans le cycle 27
+(cycle) le donneur 130 donne son rein au patient 47 dans le cycle 27
+(cycle) le donneur 145 donne son rein au patient 130 dans le cycle 27
+(cycle) le donneur 36 donne son rein au patient 166 dans le cycle 36
+(cycle) le donneur 69 donne son rein au patient 36 dans le cycle 36
+(cycle) le donneur 102 donne son rein au patient 69 dans le cycle 36
+(cycle) le donneur 166 donne son rein au patient 102 dans le cycle 36
+(cycle) le donneur 38 donne son rein au patient 56 dans le cycle 38
+(cycle) le donneur 56 donne son rein au patient 93 dans le cycle 38
+(cycle) le donneur 67 donne son rein au patient 38 dans le cycle 38
+(cycle) le donneur 93 donne son rein au patient 164 dans le cycle 38
+(cycle) le donneur 164 donne son rein au patient 67 dans le cycle 38
+(cycle) le donneur 60 donne son rein au patient 78 dans le cycle 60
+(cycle) le donneur 78 donne son rein au patient 84 dans le cycle 60
+(cycle) le donneur 84 donne son rein au patient 111 dans le cycle 60
+(cycle) le donneur 111 donne son rein au patient 60 dans le cycle 60
+(cycle) le donneur 62 donne son rein au patient 150 dans le cycle 62
+(cycle) le donneur 71 donne son rein au patient 174 dans le cycle 62
+(cycle) le donneur 150 donne son rein au patient 71 dans le cycle 62
+(cycle) le donneur 174 donne son rein au patient 62 dans le cycle 62
+(cycle) le donneur 65 donne son rein au patient 146 dans le cycle 65
+(cycle) le donneur 119 donne son rein au patient 65 dans le cycle 65
+(cycle) le donneur 146 donne son rein au patient 167 dans le cycle 65
+(cycle) le donneur 167 donne son rein au patient 178 dans le cycle 65
+(cycle) le donneur 178 donne son rein au patient 119 dans le cycle 65
+60 donneurs ne donnent pas leur rein
+49 patients n'ont pas de donneur
+--------------------------------------------------------------------
+

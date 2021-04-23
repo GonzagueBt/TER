@@ -1,0 +1,73 @@
+P100-0
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.71059019999984
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 4299.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 5340.0
+-> Distance : 24.21%
+----------------------------------
+(chemin) le donneur 27 donne son rein au patient 145 en position 1
+(chemin) le donneur 47 donne son rein au patient 22 en position 1
+(chemin) le donneur 51 donne son rein au patient 13 en position 1
+(chemin) le donneur 81 donne son rein au patient 120 en position 1
+(chemin) le donneur 109 donne son rein au patient 36 en position 1
+(chemin) le donneur 111 donne son rein au patient 144 en position 1
+(chemin) le donneur 153 donne son rein au patient 29 en position 1
+(chemin) le donneur 185 donne son rein au patient 186 en position 1
+(chemin) le donneur 189 donne son rein au patient 81 en position 0
+(chemin) le donneur 190 donne son rein au patient 47 en position 0
+(chemin) le donneur 191 donne son rein au patient 166 en position 0
+(chemin) le donneur 192 donne son rein au patient 51 en position 0
+(chemin) le donneur 193 donne son rein au patient 44 en position 0
+(chemin) le donneur 194 donne son rein au patient 111 en position 0
+(chemin) le donneur 195 donne son rein au patient 109 en position 0
+(chemin) le donneur 196 donne son rein au patient 67 en position 0
+(chemin) le donneur 197 donne son rein au patient 185 en position 0
+(chemin) le donneur 198 donne son rein au patient 27 en position 0
+(chemin) le donneur 199 donne son rein au patient 153 en position 0
+(cycle) le donneur 3 donne son rein au patient 71 dans le cycle 3
+(cycle) le donneur 71 donne son rein au patient 174 dans le cycle 3
+(cycle) le donneur 174 donne son rein au patient 3 dans le cycle 3
+(cycle) le donneur 6 donne son rein au patient 39 dans le cycle 6
+(cycle) le donneur 39 donne son rein au patient 6 dans le cycle 6
+(cycle) le donneur 23 donne son rein au patient 121 dans le cycle 23
+(cycle) le donneur 121 donne son rein au patient 23 dans le cycle 23
+(cycle) le donneur 32 donne son rein au patient 58 dans le cycle 32
+(cycle) le donneur 58 donne son rein au patient 108 dans le cycle 32
+(cycle) le donneur 108 donne son rein au patient 32 dans le cycle 32
+(cycle) le donneur 38 donne son rein au patient 130 dans le cycle 38
+(cycle) le donneur 67 donne son rein au patient 38 dans le cycle 38
+(cycle) le donneur 130 donne son rein au patient 67 dans le cycle 38
+(cycle) le donneur 40 donne son rein au patient 136 dans le cycle 40
+(cycle) le donneur 119 donne son rein au patient 40 dans le cycle 40
+(cycle) le donneur 136 donne son rein au patient 119 dans le cycle 40
+(cycle) le donneur 44 donne son rein au patient 64 dans le cycle 44
+(cycle) le donneur 64 donne son rein au patient 44 dans le cycle 44
+(cycle) le donneur 54 donne son rein au patient 84 dans le cycle 54
+(cycle) le donneur 60 donne son rein au patient 54 dans le cycle 54
+(cycle) le donneur 84 donne son rein au patient 60 dans le cycle 54
+(cycle) le donneur 57 donne son rein au patient 181 dans le cycle 57
+(cycle) le donneur 181 donne son rein au patient 57 dans le cycle 57
+(cycle) le donneur 62 donne son rein au patient 188 dans le cycle 62
+(cycle) le donneur 188 donne son rein au patient 62 dans le cycle 62
+(cycle) le donneur 69 donne son rein au patient 102 dans le cycle 69
+(cycle) le donneur 102 donne son rein au patient 69 dans le cycle 69
+(cycle) le donneur 73 donne son rein au patient 141 dans le cycle 73
+(cycle) le donneur 141 donne son rein au patient 164 dans le cycle 73
+(cycle) le donneur 164 donne son rein au patient 73 dans le cycle 73
+(cycle) le donneur 78 donne son rein au patient 138 dans le cycle 78
+(cycle) le donneur 79 donne son rein au patient 78 dans le cycle 78
+(cycle) le donneur 138 donne son rein au patient 79 dans le cycle 78
+(cycle) le donneur 86 donne son rein au patient 132 dans le cycle 86
+(cycle) le donneur 132 donne son rein au patient 86 dans le cycle 86
+(cycle) le donneur 90 donne son rein au patient 166 dans le cycle 90
+(cycle) le donneur 166 donne son rein au patient 90 dans le cycle 90
+(cycle) le donneur 127 donne son rein au patient 167 dans le cycle 127
+(cycle) le donneur 167 donne son rein au patient 178 dans le cycle 127
+(cycle) le donneur 178 donne son rein au patient 127 dans le cycle 127
+52 donneurs ne donnent pas leur rein
+52 patients n'ont pas de donneur
+--------------------------------------------------------------------
+

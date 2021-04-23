@@ -1,0 +1,69 @@
+P100-0
+----------------------------------
+Status de la resolution: TEMPS LIMITE et SOLUTION REALISABLE CALCULEE
+Temps de resolution (s) : 300.65304415799983
+----------------------------------
+Solution calculee 
+-> Valeur de la fonction objectif de la solution calculee : 4357.0
+-> Meilleure borne superieure sur la valeur de la fonction objectif = 5423.0
+-> Distance : 24.47%
+----------------------------------
+(chemin) le donneur 6 donne son rein au patient 136 en position 2
+(chemin) le donneur 7 donne son rein au patient 36 en position 2
+(chemin) le donneur 22 donne son rein au patient 121 en position 4
+(chemin) le donneur 27 donne son rein au patient 145 en position 2
+(chemin) le donneur 32 donne son rein au patient 44 en position 2
+(chemin) le donneur 36 donne son rein au patient 69 en position 3
+(chemin) le donneur 38 donne son rein au patient 56 en position 3
+(chemin) le donneur 39 donne son rein au patient 178 en position 3
+(chemin) le donneur 44 donne son rein au patient 153 en position 3
+(chemin) le donneur 49 donne son rein au patient 188 en position 1
+(chemin) le donneur 51 donne son rein au patient 112 en position 1
+(chemin) le donneur 54 donne son rein au patient 39 en position 2
+(chemin) le donneur 56 donne son rein au patient 100 en position 4
+(chemin) le donneur 57 donne son rein au patient 114 en position 3
+(chemin) le donneur 58 donne son rein au patient 54 en position 1
+(chemin) le donneur 60 donne son rein au patient 78 en position 4
+(chemin) le donneur 62 donne son rein au patient 146 en position 2
+(chemin) le donneur 64 donne son rein au patient 27 en position 1
+(chemin) le donneur 67 donne son rein au patient 38 en position 2
+(chemin) le donneur 69 donne son rein au patient 71 en position 4
+(chemin) le donneur 73 donne son rein au patient 141 en position 2
+(chemin) le donneur 74 donne son rein au patient 22 en position 3
+(chemin) le donneur 79 donne son rein au patient 74 en position 2
+(chemin) le donneur 84 donne son rein au patient 60 en position 3
+(chemin) le donneur 86 donne son rein au patient 6 en position 1
+(chemin) le donneur 106 donne son rein au patient 67 en position 1
+(chemin) le donneur 109 donne son rein au patient 73 en position 1
+(chemin) le donneur 111 donne son rein au patient 7 en position 1
+(chemin) le donneur 112 donne son rein au patient 84 en position 2
+(chemin) le donneur 114 donne son rein au patient 90 en position 4
+(chemin) le donneur 119 donne son rein au patient 181 en position 4
+(chemin) le donneur 130 donne son rein au patient 47 en position 4
+(chemin) le donneur 136 donne son rein au patient 119 en position 3
+(chemin) le donneur 138 donne son rein au patient 79 en position 1
+(chemin) le donneur 141 donne son rein au patient 164 en position 3
+(chemin) le donneur 145 donne son rein au patient 130 en position 3
+(chemin) le donneur 146 donne son rein au patient 167 en position 3
+(chemin) le donneur 153 donne son rein au patient 29 en position 4
+(chemin) le donneur 164 donne son rein au patient 186 en position 4
+(chemin) le donneur 166 donne son rein au patient 32 en position 1
+(chemin) le donneur 167 donne son rein au patient 143 en position 4
+(chemin) le donneur 174 donne son rein au patient 62 en position 1
+(chemin) le donneur 178 donne son rein au patient 137 en position 4
+(chemin) le donneur 188 donne son rein au patient 57 en position 2
+(chemin) le donneur 189 donne son rein au patient 51 en position 0
+(chemin) le donneur 190 donne son rein au patient 138 en position 0
+(chemin) le donneur 191 donne son rein au patient 166 en position 0
+(chemin) le donneur 192 donne son rein au patient 106 en position 0
+(chemin) le donneur 193 donne son rein au patient 174 en position 0
+(chemin) le donneur 194 donne son rein au patient 111 en position 0
+(chemin) le donneur 195 donne son rein au patient 86 en position 0
+(chemin) le donneur 196 donne son rein au patient 109 en position 0
+(chemin) le donneur 197 donne son rein au patient 49 en position 0
+(chemin) le donneur 198 donne son rein au patient 58 en position 0
+(chemin) le donneur 199 donne son rein au patient 64 en position 0
+56 donneurs ne donnent pas leur rein
+56 patients n'ont pas de donneur
+--------------------------------------------------------------------
+
